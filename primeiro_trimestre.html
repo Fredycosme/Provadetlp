@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tabela de Grupos - TLP</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Source Sans 3', sans-serif;
+      background: #f4f1eb;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8rem;
+      color: #1a1a2e;
+      margin-bottom: 8px;
+      letter-spacing: 0.02em;
+    }
+
+    .subtitle {
+      font-size: 0.9rem;
+      color: #6b6b7b;
+      margin-bottom: 36px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .table-wrapper {
+      width: 100%;
+      max-width: 780px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.10), 0 1px 4px rgba(0,0,0,0.06);
+      background: #fff;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    thead tr {
+      background: #1a1a2e;
+      color: #f4f1eb;
+    }
+
+    thead th {
+      font-family: 'Playfair Display', serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      padding: 18px 20px;
+      text-align: center;
+      letter-spacing: 0.04em;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid #e8e4dc;
+      transition: background 0.2s;
+    }
+
+    tbody tr:last-child { border-bottom: none; }
+
+    tbody tr:hover { background: #f9f7f2; }
+
+    tbody tr:nth-child(even) { background: #faf8f4; }
+    tbody tr:nth-child(even):hover { background: #f2efe8; }
+
+    td {
+      padding: 16px 20px;
+      text-align: center;
+      color: #2d2d3a;
+      font-size: 0.92rem;
+      vertical-align: middle;
+      line-height: 1.5;
+    }
+
+    td.num {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #1a1a2e;
+      width: 70px;
+    }
+
+    td.tema {
+      text-align: left;
+      font-size: 0.88rem;
+      color: #444;
+      max-width: 260px;
+    }
+
+    td.link a {
+      color: #c0392b;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 4px 12px;
+      border: 1.5px solid #c0392b;
+      border-radius: 20px;
+      font-size: 0.82rem;
+      transition: all 0.2s;
+      letter-spacing: 0.04em;
+    }
+
+    td.link a:hover {
+      background: #c0392b;
+      color: #fff;
+    }
+
+    td.vazio {
+      color: #ccc;
+      font-style: italic;
+      font-size: 0.8rem;
+    }
+
+    @media (max-width: 520px) {
+      thead th, td { padding: 12px 10px; font-size: 0.82rem; }
+      h1 { font-size: 1.3rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Trabalhos de Grupo</h1>
+  <p class="subtitle">Técnicas de Linguagens de Programação · 2025/2026</p>
+
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>Nº Grupo</th>
+          <th>Integrantes</th>
+          <th>Tema</th>
+          <th>Link do Trabalho</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="num">11</td>
+          <td>Frederico Colombo</td>
+          <td class="tema">Criação de um sistema de reportagem comunitária para apoio à gestão de coleta de lixo</td>
+          <td class="link"><a href="#">Formulário</a></td>
+        </tr>
+        <tr>
+          <td class="num">12</td>
+          <td>Gaspar Pinto</td>
+          <td class="tema vazio">—</td>
+          <td class="link vazio">—</td>
+        </tr>
+        <tr>
+          <td class="num">13</td>
+          <td>Graciano Quissaqui</td>
+          <td class="tema vazio">—</td>
+          <td class="link vazio">—</td>
+        </tr>
+        <tr>
+          <td class="num">14</td>
+          <td>Guilherme Vemba</td>
+          <td class="tema vazio">—</td>
+          <td class="link vazio">—</td>
+        </tr>
+        <tr>
+          <td class="num">15</td>
+          <td>Guilhermino Pacassa</td>
+          <td class="tema vazio">—</td>
+          <td class="link vazio">—</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>

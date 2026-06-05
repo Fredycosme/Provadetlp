@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T4 - Estilização Texto | Frederico Colombo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>✍️ T4 - Estilização de Texto</h1>
+        <nav class="menu-voltar">
+            <a href="segundo_trimestre.html">← Voltar ao Menu</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <h3>📋 Conteúdo T4</h3>
+            <ul>
+                <li>i) Estilização de listas e tabelas</li>
+                <li>j) Pseudo-classes básicas</li>
+                <li>k) Introdução ao Flexbox</li>
+                <li>l) Layout simples de páginas Web</li>
+            </ul>
+            
+            <div class="sidebar-imagem">
+                <h3>📸 Minha Foto</h3>
+                <div class="foto-container">
+                    <div class="foto-item">
+                        <img src="imagens/IMG-20250810-WA0051.jpg" alt="Frederico Colombo" style="width: 100%; border-radius: 10px;">
+                        <p style="color: cyan; margin-top: 10px;">Frederico Colombo</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contacto-sidebar">
+                <p><strong>Contacto</strong></p>
+                <p>📞 924216740</p>
+                <p>📧 fredycosme37@gmail.com</p>
+            </div>
+        </aside>
+
+        <main class="conteudo-tarefa">
+            <div class="exemplo-caixa">
+                <h2>🎯 NOVOS CONTEÚDOS - T4</h2>
+            </div>
+               <div class="exemplo-caixa">
+                <h3>i) Estilização de Listas</h3>
+                <ul class="lista-estilizada">
+                    <li>Item 1 - Lista com square</li>
+                    <li>Item 2 - Bordas personalizadas</li>
+                    <li>Item 3 - Efeitos hover</li>
+                    <li>Item 4 - Cores ciano</li>
+                </ul>
+
+                <h3 style="margin-top: 30px;">Tabela Estilizada</h3>
+                <table class="tabela-estilizada">
+                    <thead>
+                        <tr>
+                            <th>Propriedade</th>
+                            <th>Valor</th>
+                            <th>Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>list-style</td>
+                            <td>square</td>
+                            <td>Marcador quadrado</td>
+                        </tr>
+                        <tr>
+                            <td>border</td>
+                            <td>2px solid cyan</td>
+                            <td>Borda personalizada</td>
+                        </tr>
+                        <tr>
+                            <td>padding</td>
+                            <td>15px</td>
+                            <td>Espaçamento interno</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+               <div class="exemplo-caixa">
+                <h3>j) Pseudo-classes Básicas</h3>
+                <div class="pseudo-demo">
+                    <a href="#" class="link-pseudo">:link - Link normal</a>
+                    <a href="#" class="link-pseudo">:visited - Link visitado</a>
+                    <a href="#" class="link-pseudo">:hover - Passar mouse</a>
+                    <a href="#" class="link-pseudo">:active - Clicar</a>
+                    <input type="text" class="input-pseudo" placeholder=":focus - Clique aqui" style="padding: 15px; background: navy; color: cyan; border: 2px solid cyan; border-radius: 10px;">
+                </div>
+            </div>
+              <div class="exemplo-caixa">
+                <h3>k) Introdução ao Flexbox</h3>
+                <div class="flexbox-demo">
+                    <div class="flex-item">Flex Item 1</div>
+                    <div class="flex-item">Flex Item 2</div>
+                    <div class="flex-item">Flex Item 3</div>
+                    <div class="flex-item">Flex Item 4</div>
+                </div>
+                <p style="color: cyan; margin-top: 20px;">Propriedades: display: flex, gap, justify-content, align-items, flex-wrap</p>
+            </div>
+              <div class="exemplo-caixa">
+                <h3>l) Layout Simples de Páginas Web</h3>
+                <div class="layout-simples">
+                    <div class="layout-sidebar">
+                        <h3>Sidebar</h3>
+                        <ul>
+                            <li>Menu 1</li>
+                            <li>Menu 2</li>
+                            <li>Menu 3</li>
+                            <li>Menu 4</li>
+                        </ul>
+                    </div>
+                    <div class="layout-conteudo">
+                        <h2>Conteúdo Principal</h2>
+                        <p>Este é um layout simples usando CSS Grid. Sidebar à esquerda e conteúdo principal à direita. Ideal para páginas web profissionais.</p>
+                        <p>Com espaçamento adequado e design responsivo.</p>
+                    </div>
+                </div>
+            </div>
+              <div class="exemplo-caixa">
+                <h3>📊 Matriz de Avaliação - Frederico Colombo</h3>
+                <table class="tabela-avaliacao">
+                    <thead>
+                        <tr>
+                            <th>Disciplina</th>
+                            <th>1º Trimestre</th>
+                            <th>2º Trimestre</th>
+                            <th>3º Trimestre</th>
+                            <th>Média Final</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>TLP</strong></td>
+                            <td class="nota-excelente">Excelente</td>
+                            <td class="nota-excelente">Excelente</td>
+                            <td class="nota-bom">Bom</td>
+                            <td class="nota-excelente">Excelente</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Informática</strong></td>
+                            <td class="nota-excelente">Excelente</td>
+                            <td class="nota-bom">Bom</td>
+                            <td class="nota-excelente">Excelente</td>
+                            <td class="nota-excelente">Excelente</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Gestão</strong></td>
+                            <td class="nota-bom">Bom</td>
+                            <td class="nota-bom">Bom</td>
+                            <td class="nota-insuficiente">Insuficiente</td>
+                            <td class="nota-bom">Bom</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Matemática</strong></td>
+                            <td class="nota-excelente">Excelente</td>
+                            <td class="nota-excelente">Excelente</td>
+                            <td class="nota-excelente">Excelente</td>
+                            <td class="nota-excelente">Excelente</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p style="color: cyan; text-align: center; margin-top: 20px;">
+                    <span class="nota-excelente">■ Excelente</span> 
+                    <span class="nota-bom">■ Bom</span> 
+                    <span class="nota-insuficiente">■ Insuficiente</span>
+                </p>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>Frederico Colombo | T4 Completa - Listas, Tabelas, Pseudo-classes, Flexbox, Layout | 2025/2026</p>
+        <p>📞 924216740 | 📧 fredycosme37@gmail.com</p>
+    </footer>
+</body>
+</html>
